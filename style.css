@@ -1,0 +1,43 @@
+
+body{
+    background-color:deepskyblue;
+}
+.judul{
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 8rem;
+    height: auto;
+}
+
+.table-bio {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    color: white;
+}
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-bio td {
+    padding: 10px;
+}
+
+.table-bio tr {
+    background-color:mediumseagreen; 
+}
+
+.table-bio tr:nth-child(even) {
+    background-color:dodgerblue
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: dodgerblue;
+    margin: 20px 0;
+}
